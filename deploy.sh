@@ -6,6 +6,8 @@ txtylw='\033[1;33m' # Yellow
 txtpur='\033[1;35m' # Purple
 txtgrn='\033[1;32m' # Green
 
+CONTAINER_NAME=subway
+
 BRANCH=$1
 CONTAINER_ID=$(docker container ls -f "name=$CONTAINER_NAME" -q)
 

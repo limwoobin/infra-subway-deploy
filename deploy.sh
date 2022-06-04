@@ -46,12 +46,11 @@ function run() {
     echo -e " Docker Container Run"
     docker run \
     -d \
-    -p 8080:8080
+    -p 8080:8080 \
     --name subway \
     -v /etc/localtime:/etc/localtime:ro \
     -e TZ=Asia/Seoul
 }
-
 
 deploy_message
 pull

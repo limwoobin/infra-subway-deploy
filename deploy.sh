@@ -52,6 +52,7 @@ function run() {
     -e TZ=Asia/Seoul
 }
 
+
 deploy_message
 pull
 build

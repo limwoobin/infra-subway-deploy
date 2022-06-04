@@ -47,7 +47,7 @@ function run() {
     docker run \
     -d \
     -p 8080:8080 \
-    --name subway \
+    --name subway subway \
     -v /etc/localtime:/etc/localtime:ro \
     -e TZ=Asia/Seoul
 }
